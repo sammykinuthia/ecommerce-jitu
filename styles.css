@@ -34,7 +34,8 @@ li {
 a {
     text-decoration: none;
 }
-.container{
+
+.container {
     width: 90vw;
     margin: 0 auto;
 }
@@ -105,11 +106,12 @@ img {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 2rem 0;
-    
+
 
 }
+
 
 .product-img-main img {
     max-width: 24rem;
@@ -135,52 +137,82 @@ img {
 
 }
 
-.sub-heading{
+.sub-heading {
     color: var(--primary-orange);
     text-transform: uppercase;
     font-size: .8rem;
 }
-.heading{
+
+.heading {
     margin: .9rem 0;
+    font-weight: 700;
 }
-.product-img-desc-section .desc{
+
+.product-img-desc-section .desc {
     color: var(--secondary-grayish-blue);
     font-size: .9rem;
     margin: .2rem 0;
     max-width: 40ch;
 }
-.add-to-cart-section{
+
+.add-to-cart-section {
     display: flex;
     gap: 1rem;
     /* justify-content: space-between; */
     align-items: center;
 }
 
-.btn{
+.btn {
     padding: .4rem 1rem;
     border-radius: .3rem;
-    border:none;
+    border: none;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     font-size: 1.2rem;
 }
-.btn-grey{
+
+.btn-grey {
     color: var(--primary-orange);
 
 }
-.btn-cart{
- display: flex;
- gap: .4rem;
- padding: .4rem 1rem;
- background: var(--primary-orange);
- color: var(--secondary-white);
- font-size: .7rem;
+
+.btn-cart {
+    display: flex;
+    gap: .4rem;
+    padding: .4rem 1rem;
+    background: var(--primary-orange);
+    color: var(--secondary-white);
+    font-size: .7rem;
+    font-weight: 700;
 }
-.add-to-cart-img{
+
+.add-to-cart-img {
     color: var(--secondary-white);
 }
-.btn-cart img{
+
+.btn-cart img {
     width: 1rem;
     color: var(--secondary-white);
+}
+
+.pricing .price {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.pricing .discout {
+    background: var(--secondary-light-grayish-blue);
+    color: var(--primary-orange);
+    border-radius: .1rem;
+    margin-left: 1rem;
+    font-size: .9rem;
+    padding: .2rem;
+}
+.previos-price{
+    color: var(--secondary-grayish-blue);
+    font-size: .9rem;
+    text-decoration: line-through;
+    margin: .2rem 0 1rem;
 }
