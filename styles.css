@@ -119,6 +119,7 @@ img {
 .product-imgs-list {
     display: flex;
     gap: 1rem;
+    margin-top: 2rem;
 
 }
 
@@ -146,11 +147,13 @@ img {
     color: var(--secondary-grayish-blue);
     font-size: .9rem;
     margin: .2rem 0;
+    max-width: 40ch;
 }
 .add-to-cart-section{
     display: flex;
     gap: 1rem;
     /* justify-content: space-between; */
+    align-items: center;
 }
 
 .btn{
